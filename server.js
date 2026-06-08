@@ -7,6 +7,7 @@ dotenv.config();
 
 const app      = express();
 const PORT     = Number(process.env.PORT) || 3000;
+const LOCAL_JSON_PATH = process.env.LOCAL_JSON_PATH || 'clients.json';
 
 function isHttpUrl(value) {
   try {
@@ -18,8 +19,22 @@ function isHttpUrl(value) {
 }
 
 const configuredJson = process.env.JSON_URL;
-const REMOTE_JSON_URL = isHttpUrl(configuredJson) ? configuredJson : null;
-const DATA_FILE = REMOTE_JSON_URL ? null : path.resolve(__dirname, configuredJson || 'clients.json');
+const requestedSource = (process.env.DATA_SOURCE || '').toLowerCase();
+const hasRemoteJson = isHttpUrl(configuredJson);
+const localJsonFile = path.resolve(__dirname, LOCAL_JSON_PATH);
+const useExistingLocalJson = requestedSource === 'local' && fs.existsSync(localJsonFile);
+const USE_LOCAL_JSON = useExistingLocalJson || (!hasRemoteJson && requestedSource !== 'remote');
+const REMOTE_JSON_URL = USE_LOCAL_JSON ? null : configuredJson;
+const DATA_FILE = USE_LOCAL_JSON ? localJsonFile : path.resolve(__dirname, configuredJson || LOCAL_JSON_PATH);
+
+if (!USE_LOCAL_JSON && !hasRemoteJson) {
+  console.error('DATA_SOURCE=remote needs JSON_URL to be an http:// or https:// URL');
+  process.exit(1);
+}
+
+if (requestedSource === 'local' && !useExistingLocalJson && hasRemoteJson) {
+  console.warn(`⚠ Local JSON not found at ${localJsonFile}; using remote JSON instead`);
+}
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -33,7 +48,7 @@ const SEED = [
 ];
 
 async function ensureDataFile() {
-  if (REMOTE_JSON_URL) return;
+  if (!USE_LOCAL_JSON) return;
   if (fs.existsSync(DATA_FILE)) return;
 
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
@@ -43,7 +58,7 @@ async function ensureDataFile() {
 }
 
 async function readClients() {
-  if (REMOTE_JSON_URL) {
+  if (!USE_LOCAL_JSON) {
     const remoteRes = await fetch(REMOTE_JSON_URL);
     if (!remoteRes.ok) throw new Error(`HTTP ${remoteRes.status}`);
 
@@ -56,7 +71,7 @@ async function readClients() {
 }
 
 async function writeClients(clients) {
-  if (REMOTE_JSON_URL) {
+  if (!USE_LOCAL_JSON) {
     const remoteRes = await fetch(REMOTE_JSON_URL, {
       method: process.env.JSON_WRITE_METHOD || 'PUT',
       headers: { 'Content-Type': 'application/json' },
@@ -95,10 +110,11 @@ ensureDataFile()
   .then(() => {
     app.listen(PORT, () => {
       console.log(`\n✅ ClientTrack running → http://localhost:${PORT}`);
-      if (REMOTE_JSON_URL) {
+      if (!USE_LOCAL_JSON) {
         console.log(`🌐 JSON source         → ${REMOTE_JSON_URL}`);
         console.log(`✍️  JSON write method  → ${process.env.JSON_WRITE_METHOD || 'PUT'}\n`);
       } else {
+        console.log('📌 JSON source         → local');
         console.log(`📁 Data file          → ${DATA_FILE}\n`);
       }
     });

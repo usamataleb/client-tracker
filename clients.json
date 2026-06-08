@@ -1,0 +1,192 @@
+[
+  {
+    "id": "client_001",
+    "name": "Kawa Training Center & Promoting Women in Tourism",
+    "handle": "@promotingwomenintourism",
+    "channel": "Instagram",
+    "url": "https://kawatrainingcenter.com/",
+    "contact": "info@kawatrainingcenter.com",
+    "status": "audited",
+    "weak": "UI/UX ya website imepitwa na wakati (Outdated Template Layout Layout), maandishi mengine yanaingiliana na picha za nyuma (Low Text Contrast). Ukurasa wao wa Instagram hauna mfumo thabiti wa 'Link-in-Bio' (kama Linktree au Taplink) kuelekeza wadau kujiunga au kuchangia.",
+    "notes": "NGO ya Zanzibar inayofundisha vijana na wanawake kwenye sekta ya utalii (Hospitality & Tour Guiding). Fursa nzuri ya kuunganisha nguvu kwa kutumia hadhi ya TAMWA Zanzibar na mifumo ya HimaTech.",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Wana misheni thabiti inayovutia wafadhili (Youth & Women Empowerment) na wana ushahidi wa picha halisi (Authentic Social Proof) za wanafunzi wao.",
+      "w": "Muonekano wa website umepitwa na wakati na mifumo yao ya kijamii (Instagram) haina funnels za kuvuna 'Leads' au michango.",
+      "o": "Kuwaandikia Copy mpya, kufanya Website Redesign iwe ya kisasa, na kuweka Linktree/Taplink maalum kwa ajili ya kukusanya maombi ya wanafunzi na wafadhili.",
+      "t": "Kupoteza wafadhili (Donors) kwa mashirika mengine yenye mifumo ya kisasa na muonekano thabiti zaidi kidijitali."
+    }
+  },
+  {
+    "id": "client_002",
+    "name": "CHRRASDA",
+    "handle": "@chrrasda",
+    "channel": "LinkedIn",
+    "url": "",
+    "contact": "",
+    "status": "new",
+    "weak": "Ukurasa wa LinkedIn hauna maelezo ya kutosha ya ki-copywriting kueleza miradi yao ya sasa barani Afrika.",
+    "notes": "Center for Human Rights Research and Advocacy for Sustainable Development in Africa. Inahitaji mkakati thabiti wa B2B Content kwenye LinkedIn kuvutia watafiti na wafadhili.",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Niche kubwa ya ki-utafiti wa haki za binadamu na maendeleo endelevu barani Afrika.",
+      "w": "Kutokuwepo kwa tovuti rasmi au mifumo ya kidijitali inayoeleweka nje ya kurasa za mitandao ya kijamii.",
+      "o": "Kuwajengea landing page na kuandika 'Whitepapers' au profile za kitaalamu zitakazovutia mashirika ya kimataifa.",
+      "t": "Kutochukuliwa siriaz na ma-corporate partners kwa sababu ya kutokuwa na verified digital presence."
+    }
+  },
+  {
+    "id": "client_003",
+    "name": "NAD Zanzibar",
+    "handle": "@nad_zanzibar",
+    "channel": "Instagram",
+    "url": "",
+    "contact": "",
+    "status": "new",
+    "weak": "Maudhui ya Instagram hayana 'Call to Actions' (CTA) wazi zinazowaunganisha wadau wa Zanzibar moja kwa moja na huduma zao.",
+    "notes": "Inahitaji uandishi wa captions zenye mgusano wa kihisia (Emotional Copywriting) kulingana na mazingira ya Zanzibar.",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Ukaribu wa kijiografia na ki-huduma ndani ya soko la Zanzibar.",
+      "w": "Kukosa uandishi wa kimkakati wa kidijitali wa kugeuza watazamaji kuwa wateja au washirika.",
+      "o": "Kuwapa huduma ya usimamizi wa maandishi ya mitandao ya kijamii (Social Media Copywriting) na 'Link in Bio' setup.",
+      "t": "Kuzidiwa nguvu na brand zinazochipukia visiwani zenye uwekezaji mkubwa kwenye ubora wa maudhui."
+    }
+  },
+  {
+    "id": "client_004",
+    "name": "Zayorio Znz",
+    "handle": "@zayorio_znz",
+    "channel": "Instagram",
+    "url": "",
+    "contact": "",
+    "status": "new",
+    "weak": "Kutokuwepo kwa funnel thabiti ya kidijitali kuongoza wasomaji kutoka kwenye post zao za Instagram kwenda kwenye mifumo ya usajili.",
+    "notes": "Asasi ya vijana ya Zanzibar. Inahitaji mifumo mepesi ya ki-tech kukusanya data na usajili wa wanachama au washiriki.",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Uwezo wa kuhamasisha vijana wa Zanzibar na kuwa na mtandao hai wa kijamii.",
+      "w": "Ukosefu wa miundombinu ya ki-tech (kama website au fomu thabiti) ya kuhifadhi data za wanachama wao.",
+      "o": "Kuwajengea fomu za kidijitali na landing page rahisi ya usajili kupitia mifumo ya HimaTech.",
+      "t": "Kupoteza nguvu kazi ya vijana na fursa za ufadhili kwa kukosa mifumo rasmi ya kiofisi ya kidijitali."
+    }
+  },
+  {
+    "id": "c_mq4639takeb",
+    "name": "Simba de ZanzibarTours&Safaris",
+    "handle": "simba_de_zanzibartours_safri",
+    "channel": "Instagram",
+    "url": "",
+    "contact": "Hassan",
+    "status": "new",
+    "weak": "Hawana kabisa Website ya biashara yao ya Utalii (No Tour Operator Website). Wanategemea Instagram pekee.",
+    "notes": "Sekta ya utalii Zanzibar inahitaji uaminifu wa hali ya juu (Trust). Wageni hawawezi ku-book safari za gharama kubwa bila kuona tovuti thabiti yenye mifumo ya malipo salama au ratiba zilizonyooka.",
+    "score": 2,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Wana jina zuri linalovutia watalii na picha nzuri za wateja waliotembelea Zanzibar (Social Proof).",
+      "w": "Kutokuwa na website rasmi kunawafanya wakose wateja wa soko la kimataifa wanaotaka ku-book mapema kabla ya kusafiri.",
+      "o": "Kuwajengea Tovuti ya Kisasa ya Utalii (Tour Website) yenye ratiba (Itineraries) zilizoandikwa kwa Copywriting ya kuvutia wageni.",
+      "t": "Kupoteza biashara kubwa na kuachwa nyuma na ma-Tour Operators wengine wa Zanzibar wenye tovuti thabiti."
+    }
+  },
+  {
+    "id": "c_mq47uqxlobh",
+    "name": "A Compost Making & Environmantal Consultant Company",
+    "handle": "green_composting",
+    "channel": "Website",
+    "url": "https://greencomposting.co.tz/",
+    "contact": "Cecil Sagawala",
+    "status": "audited",
+    "weak": "Poor Website Layout, makosa ya kimaandishi (typos), na kutumia blog comment box ('Leave a Reply') badala ya B2B Lead Form kwa ajili ya mahoteli.",
+    "notes": "1. Website Copywriting & Layout Revamp\n2. High-Converting Lead Generation Forms\n3. A 'Green Tourism' Landing Page\n4. Turn Metrics into Visual Social Proof",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Strong Impact Metrics: Wana data nzuri sana kama tani 1,120 za taka kurecycliwa na ajira 20. Wanafanya kazi na hoteli 10 tayari.",
+      "w": "Muundo mbaya wa tovuti unaosomeka kama mtiririko mmoja wa habari usio na tija ya kibiashara (B2B), pamoja na typos za kimaandishi.",
+      "o": "Landing page maalum kwa ajili ya kuvutia mameneja wa mahoteli ya kifahari Zanzibar kwa kuonesha faida za kiuchumi na mazingira.",
+      "t": "Ushindani kutoka kwa makampuni makubwa ya mazingira yanayoweza kuingia soko la Zanzibar yakiwa na branding thabiti zaidi."
+    }
+  },
+  {
+    "id": "c_mq4b5p0kg9x",
+    "name": "LIPIA BUSINESS CONSULTANCY",
+    "handle": "lipiabusinessconsultancy",
+    "channel": "Instagram",
+    "url": "https://lipiaconsult.co.tz/",
+    "contact": "lipiaconsultancy@gmail.com",
+    "status": "audited",
+    "weak": "Vurugu kubwa ya rangi (Color Clash) isiyoendana na Logo yao, picha ya kwanza (Hero text) haina contrast na inasomeka vibaya, na wanatumia Gmail ya bure badala ya Domain Email.",
+    "notes": "Kampuni kubwa ya ushauri wa biashara inayochaji hadi TZS 10,000,000 lakini inatumia lipiaconsultancy@gmail.com chini ya tovuti yao. Hii inaharibu Corporate Trust.",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Wana package zilizonyooka vizuri bei zake (SME & NGO Packages) na ushuhuda mzuri (Testimonials) kutoka kwa wateja wao.",
+      "w": "Rangi za website hazifuati utambulisho wa Logo yao (Orange/Blue vs Light Blue/Green) na muundo wa kiofisi wa kidijitali hauko thabiti.",
+      "o": "Kuwafanyia re-branding ya rangi za website, kuwatengenezea Domain Workspace Emails za kiofisi, na kujenga landing pages thabiti za package zao.",
+      "t": "Kupoteza dili za ma-NGO makubwa na makampuni kwa sababu ya muonekano usio thabiti (Unprofessional branding)."
+    }
+  },
+  {
+    "id": "c_mq4dlhg1r2p",
+    "name": "Uwezo Tanzania",
+    "handle": "uwezo_tanzania1",
+    "channel": "Instagram",
+    "url": "https://uwezotanzania.or.tz",
+    "contact": "info@uwezotanzania.or.tz",
+    "status": "new",
+    "weak": "Maandishi na takwimu vimevurugika kwenye Counters (inasomeka wameimpact watu Bilioni 17 '17,914.3 M'—idadi isiyo sahihi duniani). Maandishi yamejirudia mara mbili chini ya tovuti, na mifumo haina QA thabiti.",
+    "notes": "Shirika kubwa linaloongozwa na data (Evidence-based NGO). Makosa ya data kwenye counters zao yanaweza kuwaponza mbele ya wafadhili wakubwa wanaotegemea usahihi wa takwimu.",
+    "score": 2,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Wana heshima kubwa kitaifa na kimataifa (UNESCO & World Bank Recognition) na wamebadilisha mifumo ya elimu Tanzania.",
+      "w": "Hitilafu kubwa za ki-tech (System bugs) kwenye kurasa zao zinazoharibu usahihi wa takwimu zao za mafanikio.",
+      "o": "Kusafisha mifumo yao ya ki-tech (System QA), kurekebisha counters zote live, na kuandika 'Donation Copy' yenye kuvuta hisia za wachangiaji.",
+      "t": "Wafadhili (Donors) kusita kutoa mikataba mipya kwa kuhofia uaminifu wa mifumo ya takwimu (Data integrity concerns)."
+    }
+  },
+  {
+    "id": "c_mq4e6pbndxv",
+    "name": "ZANZIBAR CLIMATE CHANGE ALLIANCE",
+    "handle": "zacca.zanzibar",
+    "channel": "Instagram",
+    "url": "https://zacca.or.tz/",
+    "contact": "+255777706013, info@zacca.or.tz",
+    "status": "audited",
+    "weak": "Website ipo slow sana kufunguka (Poor Speed Optimization). Kuna mradi umeachwa ukiwa umeandikwa jina la 'SAMPLE SAMPLE' (dummy data ilisahaulika), na bado wanatumia Gmail ya bure kwenye mawasiliano.",
+    "notes": "Mwavuli mkubwa wa NGO za mazingira Zanzibar. Kuacha dummy data kama 'SAMPLE SAMPLE' na kuwa na website ya kobe kunashusha sana hadhi yao ya ki-mataifa.",
+    "score": 4,
+    "date": "2026-06-08",
+    "swot": {
+      "s": "Mwavuli imara unaojumuisha mashirika mengi ya mazingira Zanzibar ukiwa na miradi halisi inayofanya kazi kama ya uhifadhi wa mikoko.",
+      "w": "Uzembe wa ki-tech kwenye usimamizi wa tovuti (Slow load speed, unremoved template files, na matumizi ya Gmail ya bure).",
+      "o": "Kufanya Website Optimization kuongeza kasi ya tovuti, kufuta dummy data zote, na kuwapa mifumo thabiti ya uanachama kidijitali.",
+      "t": "Kukosa ruzuku za kimataifa za mazingira kwa sababu ya taswira mbaya ya usimamizi wao wa kidijitali."
+    }
+  },
+  {
+    "id": "c_mq4f1c2k8yq",
+    "name": "Times of Zanzibar",
+    "handle": "times.ofzanzibar",
+    "channel": "Instagram",
+    "url": "https://thetimesofzanzibar.com/",
+    "contact": "Instagram",
+    "status": "new",
+    "weak": "Social proof widgets zinaonesha '0 Fans' na '0 Followers' kwa sababu ya API kufeli. Sehemu za matangazo ziko wazi zimeandikwa '- Advertisment -' bila kuingiza matangazo (hawajafanya Google AdSense integration vizuri). Picha hazina mpangilio thabiti wa SEO.",
+    "notes": "Chombo cha habari kinachopoteza mapato ya matangazo (Ad Revenue) kila sekunde kwa sababu maeneo ya banner yapo tupu, na namba ya '0 followers' inafukuza ma-corporate wanao taka kuleta matangazo yao.",
+    "score": 3,
+    "date": "2026-06-07",
+    "swot": {
+      "s": "Wana trafiki na habari mpya kila siku (Active news updates) na wanashughulikia kategoria pana za kijamii na kisiasa visiwani.",
+      "w": "API zilizovunjika zinazoonesha sifuri kwenye mitandao, na ukosefu wa usimamizi wa kimkakati wa kuingiza kipato (Monetization).",
+      "o": "Kurekebisha API connections zote, kufanya AdSense Placement Optimization ili waanze kuingiza mamilioni kupitia wasomaji wao.",
+      "t": "Kupoteza soko la habari kidijitali Zanzibar mbele ya blogu nyingine zenye mifumo thabiti na ya kisasa ya matangazo."
+    }
+  }
+]
